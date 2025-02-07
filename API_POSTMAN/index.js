@@ -12,7 +12,7 @@ const session = require('express-session');
 app.use(express.urlencoded());
 
 app.use(session({
-    name : 'jwt Session',
+    name : 'jwtSession',
     secret : 'jwtJJ',
     saveUninitialized : false,
     resave:false,
